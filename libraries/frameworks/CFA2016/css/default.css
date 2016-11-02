@@ -238,7 +238,7 @@ body {
 /* line 98, ../scss/default.scss */
 slides > slide {
   display: none;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif, Serif;
   font-size: 26px;
   color: #797979;
   width: 900px;

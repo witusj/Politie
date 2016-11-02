@@ -46,7 +46,8 @@ edges <-
     penwidth = 2,
     fontsize = 8,
     label = edgeData$Label,
-    tooltip = edgeData$Tooltip
+    tooltip = edgeData$Tooltip,
+    style = edgeData$Style
   )
 
 graph <-

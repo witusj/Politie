@@ -17,7 +17,7 @@ knit        : slidify::knit2slides
   background-color:#94F4F4;
 }
 </style>
-<div style='float:left;width:50%;background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/CRISP-DM_Process_Diagram.png/479px-CRISP-DM_Process_Diagram.png"); height: 540px; width: 540px;color:#ff8300;'>
+<div style='float:left;width:50%;background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/CRISP-DM_Process_Diagram.png/479px-CRISP-DM_Process_Diagram.png"); height: 480px; width: 480px;color:#ff8300;'>
  <h1>CRISP DM</h1>
 </div>
 <div style='float:right;width:40%;'>

@@ -17,17 +17,10 @@ knit        : slidify::knit2slides
   background-color:#94F4F4;
 }
 </style>
-<div style='float:left;width:50%;background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/CRISP-DM_Process_Diagram.png/479px-CRISP-DM_Process_Diagram.png"); height: 480px; width: 480px;color:#ff8300;'>
- <h1>CRISP DM</h1>
-</div>
-<div style='float:right;width:40%;'>
-<h3>""</h3>
-
+<h3>Data-analyse:</h3>
 <br>
-<h4><b><i>Ineke Dezentjé Hamming-Bluemink</i></b></h4>
-<h4><i>Voorzitter Team Smart Industry</i></h4>
-  
-</div>
+
+![CRSP DM](598px-CRISP-DM_Process_Diagram.png)
 
 --- .class #slide2
 
@@ -36,16 +29,10 @@ knit        : slidify::knit2slides
   background-color:#FFC89A;
 }
 </style>
-<div style='float:left;width:50%;background-image: url("assets/img/robot-worker.jpg"); height: 650px; width: 500px;color:#ff8300;'>
- <h1>Technologies</h1>
-</div>
-<div style='float:right;width:44%;'>
-<h3>"Technologie moet antwoord geven op werkelijke vragen die we hebben"</h3>
+<div>
+<h3>Business understanding:</h3>
 
-<br>
-<h4><b><i>Stef Beumer</i></b></h4>
-<h4><i>Directeur O4 Wheelchairs</i></h4>
-  
+<iframe src="diagram1.html" width=100% height=100% allowtransparency="true"> </iframe>
 </div>
 
 --- .class #slide3

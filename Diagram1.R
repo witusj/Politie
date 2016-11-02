@@ -18,10 +18,10 @@ nodeData <-
     'https://docs.google.com/spreadsheets/d/1h6dpyW5cxiGz0grEabKrzfyKBF7_Od583eQjvSZh-9I/pub?gid=887688557&single=true&output=csv'
   )
 
-edgeData$From_node <- gsub(" ", "\n", edgeData$From_node)
-edgeData$To_node <- gsub(" ", "\n", edgeData$To_node)
-nodeData$Name <- gsub(" ", "\n", nodeData$Name)
-nodeData$Text <- paste0(nodeData$Text)
+# edgeData$From_node <- gsub(" ", "\n", edgeData$From_node)
+# edgeData$To_node <- gsub(" ", "\n", edgeData$To_node)
+# nodeData$Name <- gsub(" ", "\n", nodeData$Name)
+# nodeData$Text <- paste0(nodeData$Text)
 
 # Create a node data frame
 nodes <-
@@ -32,6 +32,7 @@ nodes <-
     style = "filled",
     color = nodeData$Color,
     shape = nodeData$Shape,
+    tooltip = nodeData$Value,
     width = 1,
     fixedsize = "true",
     fontsize = 10
@@ -43,7 +44,7 @@ edges <-
     to = edgeData$To_node,
     color = edgeData$Color,
     minlen = edgeData$Len,
-    penwidth = 2,
+    penwidth = 1.5,
     fontsize = 8,
     label = edgeData$Label,
     tooltip = edgeData$Tooltip,
@@ -66,5 +67,6 @@ graph$nodes_df
 
 graph$edges_df
 
-fff <- render_graph(graph)
-saveWidget(fff, 'diagram.html')
+fff <- render_graph(graph, width = 900, height = 500)
+saveWidget(fff, 'diagram1.html')
+

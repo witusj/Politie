@@ -30,7 +30,7 @@ nodes <-
     label = FALSE,
     type = "lower",
     style = "filled",
-    color = nodeData$Color,
+    fillcolor = nodeData$Color,
     shape = nodeData$Shape,
     tooltip = nodeData$Value,
     width = 1,

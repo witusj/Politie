@@ -1,8 +1,8 @@
 ---
-title       : Minor Smart Industry
-subtitle    : Presentatie Beroepenveld
+title       : Learning Analytics
+subtitle    : Presentatie Politieacademie
 author      : Witek ten Hove, MBA
-job         : Docent HAN BKMER
+job         : Docent HAN BKMER / Data Analist
 framework   : CFA2016        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -17,11 +17,11 @@ knit        : slidify::knit2slides
   background-color:#94F4F4;
 }
 </style>
-<div style='float:left;width:50%;background-image: url("assets/img/smart-industry.jpg"); height: 540px; width: 540px;color:#ff8300;'>
- <h1>Wat is Smart Industry?</h1>
+<div style='float:left;width:50%;background-image: url("https://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining#/media/File:CRISP-DM_Process_Diagram.png"); height: 540px; width: 540px;color:#ff8300;'>
+ <h1>CRISP DM</h1>
 </div>
 <div style='float:right;width:40%;'>
-<h3>"Smart Industry optimaliseert de productie met inzet van ICT en optimaliseert de interactie tussen mens en machine"</h3>
+<h3>""</h3>
 
 <br>
 <h4><b><i>Ineke Dezentjé Hamming-Bluemink</i></b></h4>

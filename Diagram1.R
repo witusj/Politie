@@ -10,12 +10,12 @@ library(htmlwidgets)
 
 edgeData <-
   gsheet2tbl(
-    'https://docs.google.com/spreadsheets/d/1lJBBGHXKQFQHe0MVR-3cJxhPfRXuYZeYBsWowbHw5cM/pub?gid=0&single=true&output=csv'
+    'https://docs.google.com/spreadsheets/d/1h6dpyW5cxiGz0grEabKrzfyKBF7_Od583eQjvSZh-9I/pub?gid=0&single=true&output=csv'
   )
 
 nodeData <-
   gsheet2tbl(
-    'https://docs.google.com/spreadsheets/d/1lJBBGHXKQFQHe0MVR-3cJxhPfRXuYZeYBsWowbHw5cM/pub?gid=887688557&single=true&output=csv'
+    'https://docs.google.com/spreadsheets/d/1h6dpyW5cxiGz0grEabKrzfyKBF7_Od583eQjvSZh-9I/pub?gid=887688557&single=true&output=csv'
   )
 
 edgeData$From_node <- gsub(" ", "\n", edgeData$From_node)
@@ -34,8 +34,7 @@ nodes <-
     shape = nodeData$Shape,
     width = 1,
     fixedsize = "true",
-    fontsize = 10,
-    tooltip = nodeData$Text
+    fontsize = 10
   )
 
 edges <-
@@ -54,7 +53,7 @@ graph <-
   create_graph(
     nodes_df = nodes,
     edges_df = edges,
-    graph_attrs = c("layout = dot", "rankdir = TB", "tooltip = 'Beweeg over elementen voor meer informatie'"),
+    graph_attrs = c("layout = dot", "rankdir = LR", "tooltip = 'Beweeg over elementen voor meer informatie'"),
     node_attrs = "fontname = Helvetica",
     edge_attrs = c("arrowsize = 0.6", "fontname = Helvetica")
   )

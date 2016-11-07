@@ -1,6 +1,6 @@
 ---
 title       : Learning Analytics
-subtitle    : Presentatie Politieacademie
+subtitle    : Presentatie Centre of Excellence
 author      : Witek ten Hove, MBA
 job         : Docent HAN BKMER / Business Data Analist
 framework   : CFA2016        # {io2012, html5slides, shower, dzslides, ...}
